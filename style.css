@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Montserrat:wght@600&display=swap");
+@import url("https://simcom.netlify.app/style.css");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* height: 100vh; */
+  font-family: "Epilogue", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Courier New", Courier, monospace;
+}
+
+.component--name {
+  margin: var(--space-5) auto;
+  font-size: var(--length-lg3);
+  font-family: "Lobster", cursive;
+}
+
+.sticky--nav{
+    margin-top : 0;
+    position: sticky;
+    /* top: -1px; */
+}
+
+.header {
+  height: 100vh;
+}
+
+.component--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#icon {
+  font-size: var(--length-lg1);
+}
+.flex--card--column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
