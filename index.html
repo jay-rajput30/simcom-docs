@@ -5,52 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>SimCom Documentation</title>
   </head>
   <body>
     <nav class="sticky--nav">
-      <ul class="nav--list">
-        <li class="nav--items"><a href="#home">home</a></li>
-        <li class="nav--items"><a href="#component">component</a></li>
-        <li class="nav--items"><a href="#connect">connect</a></li>
+      <h3 class="hero">SimCom</h3>
+      <ul class="doc--nav--list">
+        <li class="doc--nav--items"><a href="#home">home</a></li>
+        <li class="doc--nav--items"><a href="#docs">docs</a></li>
+        <li class="doc--nav--items"><a href="#connect">connect</a></li>
       </ul>
     </nav>
 
-    <header id="home" class="home">
+    <header id="home" class="doc--section home">
       <h1>
-        Want to get quickly started on building beautiful web apps. Presenting
-        to you...
+        Want to get quickly started on building beautiful web apps.
+        Presenting...
       </h1>
       <h2 class="component--name">SimCom</h2>
       <div class="component--details">
-        <article class="card card--text--only flex--card--column"> 
-            <i id="icon" class="fa fa-bug"></i>
-                
+        <article class="card--text--only flex--card--column">
+          <i id="icon" class="fa fa-bug"></i>
+
+          <p class="card--bottom">Super easy to set up and get started with</p>
+        </article>
+
+        <article class="card--text--only flex--card--column">
+          <i id="icon" class="fa fa-wrench"></i>
           <p class="card--bottom">
-           Super easy to set up and get started with
+            Lightweight, customizable and easy to extend
           </p>
         </article>
 
-        <article class="card card--text--only flex--card--column">
-            <i id="icon" class="fa fa-wrench"></i>
-            <p class="card--bottom">
-             Lightweight, customizable and easy to extend
-            </p>
-          </article>
-
-          <article class="card card--text--only flex--card--column">
-            <i id="icon" class="fa fa-terminal"></i>
-            <p class="card--bottom">
-              Have a consistent look and feel for all your web apps
-            </p>
-          </article>
+        <article class="card--text--only flex--card--column">
+          <i id="icon" class="fa fa-terminal"></i>
+          <p class="card--bottom">
+            Have a consistent look and feel for all your web apps
+          </p>
+        </article>
       </div>
     </header>
-    <main id="component" class="component"></main>
-    <footer id="connect" class="connect"></footer>
-
-    
+    <main id="docs" class="docs">
+      <h2>
+        Just add the below stylesheet in your main CSS file to get started with
+      </h2>
+      <iframe
+        class="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Fsimcom.netlify.app%252Fstyle.css%2522%29%253B"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+    </main>
+    <footer id="connect" class="connect">
+      <h2>connect socially</h2>
+      <ul class="bullet-none">
+        <li>
+          <a target="blank" href="https://twitter.com/jay_r30"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a target="blank" href="https://github.com/jay-rajput30"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            target="blank"
+            href="https://in.linkedin.com/in/jay-rajput-23304bab"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
