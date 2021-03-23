@@ -1,24 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Docs Page</title>
-</head>
-<body>
-    <section class="component--name">
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="doc--container">
+    <section class="doc--name">
+      <ul class="doc--name--list">
+        <li class="doc--name--list--item">
+          <a href="#doc--description--alert">alerts</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--section">sections</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--avatars">avatars</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--badges">badges</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--buttons">buttons</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="##doc--description--cards">cards</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--images">responsive images</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--inputs">inputs</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--lists">lists</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--navbar">navbar</a>
+        </li>
+        <li class="doc--name--list--item">
+          <a href="#doc--description--rating">rating</a>
+        </li>
+        <li class="doc--name--list--item"><a href="#doc--description--utility">utility</a></li>
+      </ul>
     </section>
-    <section class="component--decription"></section>
-</body>
+    <article class="docs--decription">
+      <section id="doc--description--alert" class="doc--description--alert">
+        <p class="alert primary--alert">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem
+          porro nulla alias vero repellendus.
+        </p>
+        <p class="alert secondary--alert">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem
+          porro nulla alias vero repellendus.
+        </p>
+        <p class="alert success--alert">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem
+          porro nulla alias vero repellendus.
+        </p>
+        <p class="alert danger--alert">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem
+          porro nulla alias vero repellendus.
+        </p>
+        <p class="alert info--alert">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem
+          porro nulla alias vero repellendus.
+        </p>
+        <p class="alert light--alert">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem
+          porro nulla alias vero repellendus.
+        </p>
+        <p class="alert dark--alert">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem
+          porro nulla alias vero repellendus.
+        </p>
+      </section>
+      <section id="doc--description--section" class="doc--description--section">
+        <section class="primary--section text--color__primary">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ipsam
+            impedit nemo dignissimos quisquam quia labore rem. Nobis sint aut
+            non illo doloribus tempora aperiam odit labore? Quae, dignissimos
+            id.
+          </p>
+        </section>
+        <section class="alternate--section text--color__secondary">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ipsam
+            impedit nemo dignissimos quisquam quia labore rem. Nobis sint aut
+            non illo doloribus tempora aperiam odit labore? Quae, dignissimos
+            id.
+          </p>
+        </section>
+      </section>
+      <section id="doc--description--avatars" class="doc--description--avatars">
+        <figure>
+          <img class="avatar" src="https://thispersondoesnotexist.com/image" />
+          <img class="avatar" src="https://thispersondoesnotexist.com/image" />
+          <img class="avatar" src="https://thispersondoesnotexist.com/image" />
+        </figure>
+      </section>
+      <section id="doc--description--badges" class="doc-description--badges">
+        <span class="badge primary--badge">1</span>
+        <span class="badge secondary--badge">2</span>
+        <span class="badge alternate--badge">4</span>
+        <span class="badge dark--badge">3</span>
+      </section>
+      <section id="doc--description--buttons" class="doc--description--buttons">
+        <button class="button primary--button">primary</button>
+        <button class="button secondary--button">secondary</button>
+        <i id="icon--button" class="fa fa-check-square"></i>
+        <div class="icon--badge--button">
+          <i id="icon--badge--button" class="fa fa-bell"></i>
+          <span id="icon--badge" class="badge primary--badge">1</span>
+        </div>
+
+        <button class="button floating--button">+</button>
+      </section>
+      <section id="doc--description--cards" class="doc--description--cards">
+        <article class="card">
+          <figure class="card--top">
+            <img
+              src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="image of car"
+            />
+          </figure>
+          <span class="card--badge">new</span>
+          <div class="card--bottom">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, ab.
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card--top">
+            <img
+              src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="image of car"
+            />
+          </figure>
+          <button class="card--dismiss">X</button>
+          <div class="card--bottom">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, ab.
+          </div>
+        </article>
+
+        <!-- TODO: on hover grayscale is not working -->
+        <figure class="card card--overlay">
+          <img
+            src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="image of a car"
+          />
+          <!-- <div class="card--top"><img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="image of car"></div> -->
+          <button class="card--dismiss">X</button>
+          <p class="card--overlay__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, ab.
+          </p>
+        </figure>
+      </section>
+
+      <section id="doc--description--images" class="doc--description--images">
+        <figure class="rounded--image">
+          <img
+            src="https://images.unsplash.com/photo-1494253188410-ff0cdea5499e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="nature image"
+          />
+        </figure>
+        <figure class="responsive--image">
+          <img
+            src="https://images.unsplash.com/photo-1494253188410-ff0cdea5499e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="nature image"
+          />
+        </figure>
+      </section>
+      <section id="doc--description--inputs" class="doc--description--inputs">
+        <input type="text" id="standard--input" class="input standard--input" />
+
+        <input type="text" id="filled--input" class="input filled--input" />
+
+        <input type="text" id="outline--input" class="input outline--input" />
+      </section>
+
+      <section id="doc--description--lists" class="doc--description--lists">
+        <ul class="standard--list">
+          <li class="standard--list__item1">item one</li>
+          <li class="standard--list__item2">item two</li>
+          <li class="standard--list__item3">item three</li>
+        </ul>
+
+        <ul class="stacked--list">
+          <li class="stacked--list__item1">item</li>
+          <li class="stacked--list__item2">item</li>
+          <li class="stacked--list__item3">item</li>
+        </ul>
+      </section>
+
+      <section id="doc--description--navbar" class="doc--description--navbar">
+        <nav>
+          <ul class="nav--list">
+            <li class="nav--items"><a href="#">home</a></li>
+            <li class="nav--items"><a href="#">profile</a></li>
+            <li class="nav--items"><a href="#">about</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="doc--description--rating" class="doc--description--rating">
+        <ul class="rating">
+          <li>
+            <i class="fa fa-star fa-sm"></i>
+          </li>
+          <li>
+            <i class="fa fa-star fa-sm"></i>
+          </li>
+          <li>
+            <i class="fa fa-star fa-sm"></i>
+          </li>
+          <li>
+            <i class="fa fa-star fa-sm"></i>
+          </li>
+          <li>
+            <i class="fa fa-star fa-sm"></i>
+          </li>
+        </ul>
+      </section>
+      <section class="doc--description--utility" id="doc--description--utility">
+        <p class="text-utility heading">this is a heading text</p>
+        <p class="text-utility small">this is small text</p>
+        <p class="text-utility disable">this is disabled text</p>
+        <p class="text-utility center">this is centered text</p>
+      </section>
+    </article>
+  </body>
 </html>
