@@ -13,24 +13,50 @@
     <title>SimCom Documentation</title>
   </head>
   <body>
-    <nav class="sticky--nav">
+    <!-- <nav class="sticky--nav">
+
+      
       <h3 class="hero">SimCom</h3>
       <ul class="doc--nav--list">
         <li class="doc--nav--items"><a href="#home">home</a></li>
         <li class="doc--nav--items"><a href="./pages/components.html">docs</a></li>
         <li class="doc--nav--items"><a href="#connect">connect</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
+    <nav class="sticky--nav">
+      <h3 class="nav--hero">SimCom</h3>
+      <ul class="nav--list">
+        <li class="nav--items"><a href="#home">home</a></li>
+        <li class="nav--items"><a href="/pages/components.html">docs</a></li>
+        <li class="nav--items"><a href="#connect">about</a></li>
+      </ul>
+    </nav>
 
     <!-- header  section -->
     <header id="home" class="doc--section home">
+      <figure class="responsive--image">
+        <img
+          src="code-typing.png"
+          alt="nature image"
+        />
+      </figure>
       <h1>
         Want to get quickly started on building beautiful web apps.
         Presenting...
       </h1>
       <h2 class="component--name">SimCom</h2>
-      <div class="component--details">
+
+      <ul class="standard--list">
+        <li class="standard--list__item1">Super easy to set up and get started with</li>
+        <li class="standard--list__item2">Lightweight, customizable and easy to extend</li>
+        <li class="standard--list__item3">Have a consistent look and feel for all your web apps</li>
+      </ul>
+
+      
+
+
+      <!-- <div class="component--details">
         <article class="card--text--only flex--card--column">
           <i id="icon" class="fa fa-bug"></i>
 
@@ -50,9 +76,8 @@
             Have a consistent look and feel for all your web apps
           </p>
         </article>
-      </div>
+      </div> -->
     </header>
-
 
     <!-- main section -->
     <main id="docs" class="docs">
@@ -66,10 +91,8 @@
       >
       </iframe>
 
-      <button class="button primary--button">go to docs</button>
+      <button class="button primary--button"><a href="/pages/components.html">go to docs</a> </button>
     </main>
-
-
 
     <!-- footer -->
     <footer id="connect" class="connect">
