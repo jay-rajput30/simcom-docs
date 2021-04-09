@@ -55,6 +55,11 @@ button{
   margin-top:0;
   top : 0;
   padding: var(--space-3) var(--space-4);
+
+}
+.navbar--container{
+  /* border: 2px solid red; */
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -200,20 +205,10 @@ margin: var(--space-2);
   top:0;
   margin: 0;
 }
-.docs--decription{
-  max-width: 100%;
-  transform: translateX(0);
-  margin: var(--space-2);
-}
 
-
-.docs--decription section{
-  margin: var(--space-3)  var(--space-1);
-  border-bottom: 2px solid var(--secondary-color);
-}
 
 .doc--hero{
-  margin: var(--space-2) var(--space-3) var(--space-2) var(--space-2);
+  padding: var(--space-1) var(--space-3) var(--space-1) var(--space-2);
   font-family: "Lobster", cursive;
   font-size: var(--length-lg2);
   color: var(--main-color);
@@ -229,20 +224,8 @@ margin: var(--space-2);
   height: 100vh;
 }
 
-.show{
-  transform : translateX(-100%);
-  
-}
 .show--hide{
-  background-color: var(--secondary-color);
-  position: absolute;
-  top: 10px;
-  right: -35px;
-  font-size: var(--length-md3);
-  border: none;
-  outline: none;
-  background: transparent; 
-  transition: transform 0.3s linear;
+  display: none;
 }
 
 
@@ -252,22 +235,28 @@ margin: var(--space-2);
   transform-origin: center center;
 }
 
+.docs--decription{
+  height: auto;
+  width: 80%;
+  transform: translateX(250px);
+}
 .doc--name--list{
+
   position: relative;
   top:0;
   left:0;
-  margin: var(--space-4);
-  /* height: 100vh; */
+  margin-top: 0;
+  height: 70vh;
   display: flex;
   flex-direction: column;
-  padding: var(--space-2);
-  justify-content: space-evenly;
+  
+  justify-content: space-between;
   align-items: center;
 }
 
 .doc--name--list--item{
   transition: all 0.3s linear;
-  margin: var(--space3);
+  margin-bottom: var(--space2);
   text-align: center;
   transition: all 0.2s linear;
 }
@@ -313,7 +302,8 @@ outline: none;
     
   .docs--decription{
     width: 100%;
-    /* padding: var(--space-1); */
+    transform: translateX(-25px);
+
   }
 
   .stacked--list__item--container{
@@ -321,6 +311,26 @@ outline: none;
   }
 .stacked--list--item{
   padding:0;
+}
+
+.show{
+  transform : translateX(-100%);
+  
+}
+.show--hide{
+  display: inline;
+  background-color: var(--secondary-color);
+  position: absolute;
+  top: 10px;
+  right: -35px;
+  font-size: var(--length-md3);
+  border: none;
+  outline: none;
+  background: transparent; 
+  transition: transform 0.3s linear;
+}
+.doc--name--list--item{
+  margin-bottom: var(--space-1);
 }
 }
 
